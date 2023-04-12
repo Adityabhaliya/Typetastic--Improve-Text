@@ -25,7 +25,7 @@ export default function About(props) {
     </h2>
     <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
       <div className="accordion-body" style={mystyle}>
-       Typetastic gives you a way to analyze your text  <strong> quickly and efficiently.</strong>  Be it word count, character count <code>or reverse text,copy text,uppercase and lowercase facility also remove extra spaces,</code> thats it ! 
+       Typetestic gives you a way to analyze your text  <strong> quickly and efficiently.</strong>  Be it word count, character count <code>or reverse text,copy text,uppercase and lowercase facility also remove extra spaces,</code> thats it ! 
       </div>
  
 
@@ -39,7 +39,7 @@ export default function About(props) {
     </h2>
     <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
       <div className="accordion-body" style={mystyle}>
-     Typetastic is a Free Character counter tool that provides instant  <strong> character count & word count statistics for a given text.</strong> Typetastic reports the number of words and characters. Thus it is suitable for writing text with <code> word/character limit.</code>
+     Typetestic is a Free Character counter tool that provides instant  <strong> character count & word count statistics for a given text.</strong> Typetestic reports the number of words and characters. Thus it is suitable for writing text with <code> word/character limit.</code>
 
       </div>
     </div>

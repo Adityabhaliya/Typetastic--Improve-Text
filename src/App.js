@@ -30,23 +30,23 @@ function App() {
       setMode('dark')
       document.body.style.backgroundColor = '#0d2539'
       showAlert("Dark mode has been enabled", "success")
-      // document.title = 'Typetastic - Dark Mode'
+      // document.title = 'Typetestic - Dark Mode'
 
       //its a use to attract user to downlod your app or install any software 
 
       // setInterval(()=>{
-      // document.title='Typetastic  is Amazing Mode';
+      // document.title='Typetestic  is Amazing Mode';
 
       // },2000)
       // setAlert(()=>{
-      // document.title='Install Typetastic Now 🔥🔥🔥';
+      // document.title='Install Typetestic Now 🔥🔥🔥';
 
       // },1500)
     } else {
       setMode('light')
       document.body.style.backgroundColor = 'white'
       showAlert("Light mode has been enabled ", "success")
-      // document.title = 'Typetastic - Light Mode'
+      // document.title = 'Typetestic - Light Mode'
 
     }
   }
@@ -77,14 +77,14 @@ function App() {
   return (
     <>
       <Router>
-        <Navbar title="Typetastic" aboutText="About" mode={mode} toggleMode={toggleMode} />
+        <Navbar title="Typetestic" aboutText="About" mode={mode} toggleMode={toggleMode} />
         <Alert alert={alert} />
         {/* {<Navbar/>} */}
         <div className="container my-3">
           <Switch>
             <Route path='/about'><About mode={mode} /></Route>
             <Route path='/'>       
-             <TextForm showAlert={showAlert} heading="Use Typetastic -Word counter, Charcater counter, Remove extra spaces" mode={mode} />
+             <TextForm showAlert={showAlert} heading="Use Typetestic -Word counter, Charcater counter, Remove extra spaces" mode={mode} />
             </Route>
           </Switch>
 
